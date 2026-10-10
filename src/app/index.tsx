@@ -64,7 +64,7 @@ export default function Index() {
         <View style={styles.searchContainer}>
           <TextInput
             style={styles.input}
-            placeholder="Search location (e.g. Mumbai, Tokyo)..."
+            placeholder="Search location (e.g. Mumbai)..."
             placeholderTextColor="#8E9BAE"
             value={city}
             onChangeText={setCity}
@@ -148,7 +148,7 @@ export default function Index() {
 const styles = StyleSheet.create({
   scrollContainer: {
     flexGrow: 1,
-    backgroundColor: '#0F172A', // Slate 900
+    backgroundColor: '#0F172A',
     alignItems: 'center',
     justifyContent: 'center',
     padding: 20,
